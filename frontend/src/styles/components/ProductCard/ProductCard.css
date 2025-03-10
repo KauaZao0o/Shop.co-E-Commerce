@@ -1,0 +1,41 @@
+/* Card de produto */
+.product-card {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .product-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .product-card .stars {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    color: gold;
+    font-size: 1.2em;
+    margin: 5px 0;
+  }
+  
+  .product-card .price {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .product-card .old-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 10px;
+  }

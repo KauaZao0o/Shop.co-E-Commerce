@@ -1,0 +1,43 @@
+/* Navbar */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 4px 0;
+  }
+  
+  .header {
+    padding: 1.3rem;
+  }
+  
+  .close {
+    display: none;
+  }
+  
+  .nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-primary-container {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-primary-container h1 {
+    font-family: "Integral CF";
+    font-size: 25.2px;
+    margin-top: -0.3rem;
+  }
+  
+  .nav-secondary-container {
+    display: flex;
+    gap: 0.7rem;
+  }
