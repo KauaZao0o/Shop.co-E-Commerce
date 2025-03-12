@@ -1,10 +1,10 @@
 import React from 'react';
 import './styles/global/fonts.css';
 import './styles/global/reset.css';
-import './styles/components/Header/Header.css';
-import './styles/components/ProductCard/ProductCard.css';
-import './styles/components/Footer/Footer.css';
-import './styles/pages/HomePage/HomePage.css';
+import './components/Header/Header.css';
+import './components/ProductCard/ProductCard.css';
+import './components/Footer/Footer.css';
+import './pages/HomePage/HomePage.css';
 import casalModa from './assets/images/casal-da-moda-posando-foto-inteira.png';
 import searchIcon from './assets/images/navbar/Search.png';
 import downArrow from './assets/images/navbar/Down-arrow.png';
